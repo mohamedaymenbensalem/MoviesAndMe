@@ -21,7 +21,7 @@ class Search extends React.Component {
 
             // Ici on rend à l'écran les éléments graphiques de notre component custom Search
             <View style={styles.main_container}>
-      <TextInput placeholder='Titre du film'  style={styles.textinput} placeholder='Titre du film ok'/>
+      <TextInput placeholder='Titre du film'  style={styles.textinput} placeholder='Titre du film ok ok'/>
       <Button title='Rechercher' onPress={() => this._loadFilms()}/>
 
 
